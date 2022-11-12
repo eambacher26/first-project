@@ -46,7 +46,7 @@ class UI(QMainWindow):
     def lap_window(self):
         
         
-        
+       # 
         widget.setCurrentIndex(widget.currentIndex()+1)
         
 
