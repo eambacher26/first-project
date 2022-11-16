@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>518</width>
-    <height>340</height>
+    <height>495</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -71,9 +71,9 @@
    <widget class="QPushButton" name="lap">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>230</y>
-      <width>81</width>
+      <x>20</x>
+      <y>220</y>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
@@ -86,12 +86,45 @@
      <string>LAP</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="viewlap">
+   <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>230</y>
-      <width>81</width>
+      <x>130</x>
+      <y>40</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>270</y>
+      <width>261</width>
+      <height>161</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="verticalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>270</y>
+      <width>16</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearlaps">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>220</y>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
@@ -101,17 +134,7 @@
      </font>
     </property>
     <property name="text">
-     <string>VIEW LAPS</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="lcdNumber">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>40</y>
-      <width>261</width>
-      <height>71</height>
-     </rect>
+     <string>CLEAR LAPS</string>
     </property>
    </widget>
   </widget>
